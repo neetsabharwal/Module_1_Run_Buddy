@@ -1,3 +1,9 @@
+:root{
+    --dark_blue: #024e76;
+    --light_blue: #39a6b2;
+    --yellow: #fce138;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,26 +11,26 @@
 }
 
 body {
-    color: #39a6b2;
+    color: var(--light_blue);
     font-family: Helvetica, Arial, sans-serif;
 }
 
 header {
     padding: 20px 35px;
-    background-color: #39a6b2;
+    background-color: var(--light_blue);
 }
 
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #fce138;
+    color: var(--yellow);
     margin: 0;
     display: inline;
 }
   
 header a {
     text-decoration: none;
-    color: #fce138;
+    color: var(--yellow);
 }
 
 header nav {
@@ -42,15 +48,70 @@ header nav ul li a {
     font-size: 22px;
 }
 
+section{
+    padding: 60px;
+}
+
+.hero{
+    background-image: url('../images/hero-bg.jpeg');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero_form{
+    background-color: var(--yellow);
+    padding: 20px;
+    width: 500px;
+    color: var(--dark_blue);
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--dark_blue);
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+
+.hero_form h3{
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero_form p{
+    margin: 5px 0 15px 0;
+}
+
+.hero_form label{
+    margin: 0 5px;
+}
+
+.hero_form button{
+    color: var(--yellow);
+    background-color: var(--dark_blue);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.form_input{
+    border: 1px solid var(--dark_blue);
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: var(--dark_blue);
+    width: 100%;
+    margin-bottom: 15px;
+}
+
 footer {
-    background: #fce138;
+    background: var(--yellow);
     width: 100%;
     padding: 40px 35px;
 }
 
 footer h2 {
     display: inline;
-    color: #024e76;
+    color: var(--dark_blue);
     font-size: 30px;
     margin: 0;
 }
@@ -62,6 +123,6 @@ footer div {
 }
 
 footer a {
-    color: #024e76;
+    color: var(--dark_blue);
 }
 
