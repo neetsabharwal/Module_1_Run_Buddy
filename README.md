@@ -13,4 +13,4 @@ https://neetsabharwal.github.io/Module_1_Run_Buddy/
 ## Contribution
 Made with ❤️ by [Gurneet]
 
-### ©️2019 Run Buddy, Inc 
+### ©️2019 Run Buddy, Inc. 
